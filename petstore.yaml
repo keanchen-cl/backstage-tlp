@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: petstore
-  namespace: internal-systems
+  namespace: external-systems
   description: Petstore
 spec:
   type: service
