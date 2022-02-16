@@ -7,7 +7,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: group:arquitectura_tecnologia
+  owner: arquitectura_tecnologia
   providesApis:
     - petstore
     - internal/streetlights
