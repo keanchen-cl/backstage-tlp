@@ -6,6 +6,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner:
-    kind: Group
-    name: arquitectura_tecnologia
+  owner: arquitectura_tecnologia
