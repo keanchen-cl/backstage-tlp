@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: petstore
+  description: Petstore
+spec:
+  type: service
+  lifecycle: experimental
+  owner:
+    kind: Group
+    name: aegis-imports/pet-managers
