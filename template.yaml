@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: petstore
+  namespace: external-systems
+  description: Petstore
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:pet-managers
+  providesApis:
+    - petstore
+    - internal/streetlights
+    - hello-world
